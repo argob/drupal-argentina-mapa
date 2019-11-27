@@ -1,0 +1,5 @@
+name = Mapa
+core = 7.x
+package = Drupar
+version = 7.x-1.0
+

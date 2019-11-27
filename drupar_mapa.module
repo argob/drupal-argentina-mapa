@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the mapa feature.
+ */
+
+include_once 'includes/drupar_mapa.theme.inc';
+
+/*
+* Implements hook_ctools_plugin_directory().
+*/
+function drupar_mapa_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools' && $plugin_type == 'content_types') {
+    return 'plugins/' . $plugin_type;
+  }
+}
