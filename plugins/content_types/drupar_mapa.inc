@@ -15,7 +15,7 @@ function mapa_render($subtype, $conf, $panel_args, $context = NULL){
   $block = new stdClass();
   $block->title = '';
   $nodo = node_load(arg(1));
-  $keyMap = 'AIzaSyAnjrx-mfaup3A-TQS4DyL0ngfxEqDDBqc';
+  $keyMap = ''; //key de Gmaps
 
   $latitud = $nodo->field_latitud['und'][0]['value'];
   $longitud = $nodo->field_longitud['und'][0]['value'];
